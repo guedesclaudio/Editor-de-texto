@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Editor de texto</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+		<script type="text/javascript" src="funcao.js"></script>
+	</head>
+
+	<body>
+
+		<div id="container">
+			
+			<h1>Editor de texto</h1>
+			<div>
+				<div id="caixa-texto-1">
+					<textarea id="conteudo"></textarea>
+				</div>
+				<br>
+				<div id="caixa-botoes">
+					<button onclick="UpperCase()">Letras maiúsculas</button>
+					<button onclick="LowerCase()">Letras minúsculas</button>
+					<button onclick="somentePrimeiraLetraUpper()">1° Letra maiúscula</button>
+					<button onclick="somentePrimeiraLetraLower()">1° Letra minúscula</button>
+					<button onclick="todaPrimeiraLetraUpper()">Toda 1° Letra maiúscula</button>
+					<button onclick="todaPrimeiraLetraLower()">Toda 1° Letra minúscula</button>
+					<button onclick="fraseUpper()">Toda 1° Letra da frase maiúscula</button>
+				</div>
+				<br>
+				<div id="caixa-texto-2">
+					<p id="resultado">
+						
+					</p>
+				</div>
+				<div id="caixa-contadores">
+					<div>
+						<div class="contadores"><span>Contador de caracter: </span><span id="contagem-caracter"> 0 </span></div>
+						<div class="contadores"><span> Contador de palavras: </span><span id="contagem-palavra"> 0 </span></div> 
+						<div class="contadores"><span> Contador de frases: </span><span id="contagem-frase"> 0 </span></div>
+					</div>
+					<button id="limpa-texto" onclick="removeTexto()"><img src="img/lixeira.png" width="20px" height="20px"></button>
+				</div>
+			</div>
+
+			<div>
+				<h4>Recomendações de Uso</h4>
+				<ul>
+					<li>Certifique-se que exista apenas um espaço em branco após o ponto de cada frase</li>
+					<li>Verifique o espaçamento entre as palavras</li>
+					<li>Para ser contado uma frase é necessário o ponto final</li>
+				</ul>
+			</div>
+
+			<footer>Powered by <a href="">Claudio Guedes</a></footer>
+
+		</div>
+
+	</body>
+</html>

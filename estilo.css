@@ -1,0 +1,182 @@
+body {
+	background-color: rgba(174, 227, 240, 0.226);
+}
+
+#container {
+	width: 280px;
+	margin: 40px auto;
+}
+
+h1 {
+	text-align: center;
+	font-family: Arial;
+	color: #0275d8;
+	font-size: 24px;
+}
+
+#caixa-texto-1 {
+	width: 300px;
+	margin: 0 auto;
+}
+
+textarea {
+	width: 260px;
+	min-height: 200px;
+	border: 2px solid #0275d8;
+	border-radius: 6px;
+	font-family: Arial;
+	padding: 6px;
+	box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+	background-color: white;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.7);
+	
+}
+
+#caixa-botoes {
+	width: 280px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+button {
+	padding: 6px;
+	width: 130px;
+	margin: 4px;
+	background: #0275d8;
+	border: none;
+	color: white;
+	cursor: pointer;
+	box-shadow: 2px 2px 0.5px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+}
+
+button:hover {
+	background: #058aff;
+}
+
+#caixa-texto-2 {
+	width: 260px;
+	min-height: 200px;
+	border: 2px solid #0275d8;
+	border-radius: 6px;
+	box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+	padding: 6px;
+	background-color: white;
+}
+
+p {
+	color: rgba(0, 0, 0, 0.7);
+	font-family: Arial;
+	font-size: 14px;
+}
+
+#caixa-contadores {
+	width: 280px;
+	margin: 14px auto;
+	font-family: Arial;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 13px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contadores {
+	margin: 6px 0;
+}
+
+#contagem-caracter, #contagem-palavra, #contagem-frase {
+	color: #0275d8;
+}
+
+#limpa-texto {
+	padding: 2px;
+	width: 30px;
+	height: 30px;
+	background: rgb(243, 63, 63);
+}
+
+#limpa-texto:hover {
+	background: rgb(248, 90, 90);
+}
+
+h4 {
+	color: dimgray;
+	font-family: Arial;
+	font-size: 16px;
+}
+
+ul {
+	list-style: none;
+	color: dimgray;
+	font-family: Arial;
+	margin-left: -40px;
+	font-size: 14px;
+}
+
+ul li {
+	padding-bottom: 6px;
+}
+
+footer {
+	margin-top: 60px;
+	text-align: center;
+	color: #0275d8;
+	font-family: Arial;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(21, 210, 235);
+}
+
+
+@media (min-width: 1000px) {
+
+
+	#container {
+		width: 1000px;
+	}
+
+	#caixa-texto-1 {
+		width: 1000px;
+		margin: 0 auto;
+	}
+
+	textarea {
+		width: 1000px;
+		
+	}
+
+	#caixa-texto-2 {
+		width: 1000px;
+		min-height: 200px;
+		border-radius: 6px;
+		margin: 0 auto;
+	}
+
+	#caixa-botoes {
+		width: 1000px;
+	}
+
+	#caixa-contadores {
+		width: 1000px;
+		margin: 18px auto;
+		font-family: Arial;
+		color: rgba(0, 0, 0, 0.7);
+		font-size: 16px;
+		
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	ul {
+		font-size: 16px;
+	}
+}
